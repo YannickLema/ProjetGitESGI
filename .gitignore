@@ -1,0 +1,8 @@
+# Ignorer le dossier "spotify_float" et tous ses contenus
+spotify_float/
+
+# Ignorer les fichiers de configuration spécifiques à Spotify Float
+spotify_float/*.config
+
+# Ignorer les fichiers journaux spécifiques à Spotify Float
+spotify_float/*.log
