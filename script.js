@@ -2,9 +2,9 @@
 document.getElementById('site-body').classList.remove('no-transition');
 
 // Ajout d'un écouteur d'événement sur le menu-button
-// document.getElementById('menu-button').addEventListener('click', function(){
-// 	document.getElementById('site-nav').classList.toggle('visible');
-// })
+document.getElementById('menu-button').addEventListener('click', function(){
+	document.getElementById('site-nav').classList.toggle('visible');
+})
 
 const darkModeToggle = document.querySelector('#dark-mode-toggle');
 
