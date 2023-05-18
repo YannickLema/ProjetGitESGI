@@ -27,16 +27,16 @@ document.getElementById('instagramLink').addEventListener('click', function() {
   window.location.href = 'https://www.instagram.com';
 });
 
-// var promoVideo = document.getElementById('promoVideo');
-// var playButton = document.getElementById('playButton');
-// var videoOverlay = document.getElementById('videoOverlay');
+var promoVideo = document.getElementById('promoVideo');
+var playButton = document.getElementById('playButton');
+var videoOverlay = document.getElementById('videoOverlay');
 
-// playButton.addEventListener('click', function() {
-//   if (promoVideo.paused) {
-//     promoVideo.play();
-//     videoOverlay.style.display = 'none';
-//   } else {
-//     promoVideo.pause();
-//     videoOverlay.style.display = 'flex';
-//   }
-// });
+playButton.addEventListener('click', function() {
+   if (promoVideo.paused) {
+    promoVideo.play();
+     videoOverlay.style.display = 'none';
+   } else {
+     promoVideo.pause();
+     videoOverlay.style.display = 'flex';
+   }
+ });
