@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# Vérification du fichier script.js
+echo "Checking script.js..."
+
+# Récupération des fichiers modifiés dans le commit
+files=$(git diff --cached --name-only --diff-filter=ACM)
+
+# Vérification si script.js est modifié
+if [[ $files =~ "script.js" ]]; then
+  # Vérification des erreurs dans le fichier script.js
+  node -c script.js
+
+  # Vérification du code de sortie de la commande précédente
+  if [ $? -ne 0 ]; then
+    echo "script.js contains syntax errors. Please fix them before committing."
+    exit 1
+  fi
+fi
+
+# Si tout est passé avec succès, poursuivre le commit
+exit 0
