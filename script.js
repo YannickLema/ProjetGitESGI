@@ -12,20 +12,20 @@ darkModeToggle.addEventListener('click', function() {
     document.body.classList.toggle('dark-mode');
  });
 
-// // Redirection vers Facebook
-// document.getElementById('facebookLink').addEventListener('click', function() {
-//   window.location.href = 'https://www.facebook.com';
-// });
+// Redirection vers Facebook
+document.getElementById('facebookLink').addEventListener('click', function() {
+  window.location.href = 'https://www.facebook.com';
+});
 
-// // Redirection vers Twitter
-// document.getElementById('twitterLink').addEventListener('click', function() {
-//   window.location.href = 'https://www.twitter.com';
-// });
+// Redirection vers Twitter
+document.getElementById('twitterLink').addEventListener('click', function() {
+  window.location.href = 'https://www.twitter.com';
+});
 
-// // Redirection vers Instagram
-// document.getElementById('instagramLink').addEventListener('click', function() {
-//   window.location.href = 'https://www.instagram.com';
-// });
+// Redirection vers Instagram
+document.getElementById('instagramLink').addEventListener('click', function() {
+  window.location.href = 'https://www.instagram.com';
+});
 
 // var promoVideo = document.getElementById('promoVideo');
 // var playButton = document.getElementById('playButton');
