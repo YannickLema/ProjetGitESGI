@@ -324,7 +324,7 @@ body > footer ul{
 	display: flex;
 	align-items: center;
 }
-/* .dark-mode{
+.dark-mode{
 	background-color: #333;
 	color: #fff;
 }
@@ -334,7 +334,8 @@ body > footer ul{
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
-} */
+}
+
 @media screen and (max-width: 1000px){
 
 	.container{

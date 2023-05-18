@@ -6,11 +6,11 @@ document.getElementById('site-body').classList.remove('no-transition');
 // 	document.getElementById('site-nav').classList.toggle('visible');
 // })
 
-// const darkModeToggle = document.querySelector('#dark-mode-toggle');
+const darkModeToggle = document.querySelector('#dark-mode-toggle');
 
-//   darkModeToggle.addEventListener('click', function() {
-//     document.body.classList.toggle('dark-mode');
-//   });
+darkModeToggle.addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+ });
 
 // // Redirection vers Facebook
 // document.getElementById('facebookLink').addEventListener('click', function() {
