@@ -18,7 +18,7 @@ Ce projet est une visualisation de la page d'accueil de Spotify, en utilisant HT
 # Comment utiliser
 
     1. Cloner le dépôt Git sur votre machine locale 
-        git clone https://github.com/votre-utilisateur/votre-dépôt.git
+        git clone https://github.com/YannickLema/ProjetGitESGI.git
     2. Ouvrir le fichier `index.html` dans votre navigateur web préféré.
     3. Utilisez le bouton de basculement pour passer du mode sombre au mode clair et vice versa.
 
