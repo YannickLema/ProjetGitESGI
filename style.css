@@ -188,12 +188,12 @@ nav li a{
 }
 
 #section1 h1{
-	font-size: 96px;
+	font-size: 90px;
 	margin: 0;
 }
 
 #section1 h2{
-	font-size: 30px;
+	font-size: 25px;
 }
 
 #section1 .cta-button{
@@ -208,7 +208,7 @@ nav li a{
 
 #section2 .container > h1{
 	text-align: center;
-	font-size: 48px;
+	font-size: 40px;
 }
 
 #section2 .container > div{
@@ -241,7 +241,7 @@ nav li a{
 
 #section3 .container > h1{
 	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 
@@ -278,13 +278,13 @@ nav li a{
 }
 
 .offer h1{
-	font-size: 24px;
+	font-size: 20px;
 	margin: 0;
 	font-weight: 400;
 }
 
 .offer h2{
-	font-size: 32px;
+	font-size: 30px;
 	margin: 0;
 }
 
